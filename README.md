@@ -48,4 +48,9 @@ For this time please fork this here repo.
 
 - Detailed Task descriptions are inside the files of `/CodingKata/*`
 
+# Read more
+
+- https://www.codingdojo.org
+- https://www.github.com/gamontal/awesome-katas
+
 
