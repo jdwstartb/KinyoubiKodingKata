@@ -25,6 +25,10 @@ describe('FizzBuzzService', function () {
             expect(service.transform(5)).toEqual("Buzz")
         })
 
+        it('transforms a number divisible by both as FizzBuzz', ()=>{
+            const service = new FizzBuzzService()
+            expect(service.transform(15)).toEqual("FizzBuzz")
+        })
     })
 
 
