@@ -8,12 +8,13 @@ export class FizzBuzzService{
     }
 
     transform(number): string{
+        let result = ""
         if (number % 3 == 0){
-            return "Fizz"
+            result += "Fizz"
         }
         if (number % 5 == 0){
-            return "Buzz"
+            result += "Buzz"
         }
-        return ``
+        return result
     }
 }
