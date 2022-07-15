@@ -15,6 +15,6 @@ export class FizzBuzzService{
         if (number % 5 == 0){
             result += "Buzz"
         }
-        return result
+        return result || `${number}`
     }
 }
