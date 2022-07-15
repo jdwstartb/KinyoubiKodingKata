@@ -29,6 +29,10 @@ describe('FizzBuzzService', function () {
             const service = new FizzBuzzService()
             expect(service.transform(15)).toEqual("FizzBuzz")
         })
+        it('does not change number 1', ()=>{
+            const service = new FizzBuzzService()
+            expect(service.transform(1)).toEqual("1")
+        })
     })
 
 
