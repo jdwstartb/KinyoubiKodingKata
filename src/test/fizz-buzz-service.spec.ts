@@ -12,6 +12,14 @@ describe('FizzBuzzService', function () {
             service.next()
             expect(service.next()).toEqual("2")
         })
+
+        it('returns the fizz on 3', ()=>{
+            const service = new FizzBuzzService()
+            service.next()
+            service.next()
+            expect(service.next()).toEqual("Fizz")
+        })
+
     })
 
     describe('transform', ()=>{
