@@ -1,3 +1,5 @@
+import {FizzBuzzService} from "../fizz-buzz-service";
+
 describe('FizzBuzzService', function () {
 
     it('returns a number', ()=>{
