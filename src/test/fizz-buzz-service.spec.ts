@@ -43,5 +43,9 @@ describe('FizzBuzzService', function () {
         })
     })
 
+    describe('loop', () => {
+        const service = new FizzBuzzService()
+        service.loop()
+    })
 
 })
