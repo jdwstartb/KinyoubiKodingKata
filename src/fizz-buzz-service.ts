@@ -6,4 +6,8 @@ export class FizzBuzzService{
         this.counter +=1
         return `${this.counter}`
     }
+
+    transform(number): string{
+        return "Fizz"
+    }
 }
