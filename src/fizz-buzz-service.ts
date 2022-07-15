@@ -1,6 +1,9 @@
 
 export class FizzBuzzService{
+    counter = 0
+
     next():string  {
-        return "1"
+        this.counter +=1
+        return `${this.counter}`
     }
 }
