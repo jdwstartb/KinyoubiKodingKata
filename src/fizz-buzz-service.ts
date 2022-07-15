@@ -2,6 +2,12 @@
 export class FizzBuzzService{
     counter = 0
 
+    loop(): void {
+        for (let i = 0; i < 100; i++){
+            console.log(this.next())
+        }
+    }
+
     next():string  {
         this.counter +=1
         return this.transform(this.counter)
