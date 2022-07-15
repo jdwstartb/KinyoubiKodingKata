@@ -4,7 +4,7 @@ export class FizzBuzzService{
 
     next():string  {
         this.counter +=1
-        return `${this.counter}`
+        return this.transform(this.counter)
     }
 
     transform(number): string{
