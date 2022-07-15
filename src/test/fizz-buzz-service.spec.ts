@@ -15,5 +15,12 @@ describe('FizzBuzzService', function () {
         })
     })
 
+    describe('transform', ()=>{
+        it('transforms a number divisible by 3 to "Fizz"', ()=>{
+            const service = new FizzBuzzService()
+            expect(service.transform(3)).toEqual("Fizz")
+        })
+    })
+
 
 })
